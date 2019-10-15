@@ -8,6 +8,7 @@ const typeDefs = gql`
 
   # This "Book" type defines the queryable fields for every book in our data source.
   type Book {
+    id: String
     title: String
     author: String
   }
@@ -21,10 +22,12 @@ const typeDefs = gql`
 `
 const books = [
   {
+    id: '001',
     title: 'Harry Potter and the Chamber of Secrets',
     author: 'J.K. Rowling'
   },
   {
+    id: '002',
     title: 'Jurassic Park',
     author: 'Michael Crichton'
   }
