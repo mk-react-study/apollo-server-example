@@ -15,6 +15,7 @@ Apollo Server
 ```
 
 ### Response 
+```
 {
   "data": {
     "books": [
@@ -29,3 +30,4 @@ Apollo Server
     ]
   }
 }
+```
