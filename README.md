@@ -1,11 +1,11 @@
 # apollo-server
-Apollo Server
 
-* https://www.apollographql.com/docs/apollo-server/getting-started/
-* https://www.apollographql.com/docs/apollo-server/v1/servers/express/
-* http://localhost:5011
+- https://www.apollographql.com/docs/apollo-server/getting-started/
+- https://www.apollographql.com/docs/apollo-server/v1/servers/express/
+- http://localhost:5011 This is graphql playground link
 
-`Request`
+### Request
+
 ```
 {
   books {
@@ -15,7 +15,8 @@ Apollo Server
 }
 ```
 
-`Response`
+### Response
+
 ```
 {
   "data": {
